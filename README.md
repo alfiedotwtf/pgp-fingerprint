@@ -1,10 +1,10 @@
 # NAME
 
-fingerprint - Prints the fingerprint of the PGP public key inside the supplied file
+pgp-fingerprint - Prints the fingerprint of the PGP public key inside the supplied file
 
 ## Example
 
-    ./fingerprint /path/to/public.key
+    ./pgp-fingerprint /path/to/public.key
     3f38251ac169da0f087b2479a3384b233c92aeee
 
 # Exit Status:
@@ -16,7 +16,7 @@ fingerprint - Prints the fingerprint of the PGP public key inside the supplied f
 
 Please report any bugs or feature requests at:
 
-* [https://gitlab.com/alfiedotwtf/fingerprint/issues](https://gitlab.com/alfiedotwtf/fingerprint/issues)
+* [https://gitlab.com/alfiedotwtf/pgp-fingerprint/issues](https://gitlab.com/alfiedotwtf/pgp-fingerprint/issues)
 
 Feel free to fork the repository and submit pull requests :)
 
@@ -35,7 +35,7 @@ IT COMES WITHOUT WARRANTY OF ANY KIND.
 
 # COPYRIGHT AND LICENSE
 
-Perpetual Copyright (C) by Alfie John
+Copyright (C) 2021 by Alfie John
 
 This program is free software: you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software

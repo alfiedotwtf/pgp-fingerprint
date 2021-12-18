@@ -20,7 +20,7 @@ func init() {
 	}
 
 	if os.Args[1] == "-h" || os.Args[1] == "--help" {
-		log.Println("fingerprint - prints the fingerprint of the PGP public key inside the supplied file")
+		log.Println("pgp-fingerprint - prints the fingerprint of the PGP public key inside the supplied file")
 		log.Fatalf("usage: %s </path/to/public.key>", os.Args[0])
 	}
 
